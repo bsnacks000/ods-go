@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestArrayStackSmoke(t *testing.T) {
+func TestArrayStackInit(t *testing.T) {
 	stack := NewArrayStack[int]()
 
 	assert.Equal(t, stack.Size(), 0)

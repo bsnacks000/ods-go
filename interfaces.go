@@ -1,10 +1,16 @@
 package ods
 
 // List implements methods Size, Ste, Get, Add and Remove.
-type List[T comparable] interface {
+type IList[T comparable] interface {
 	Size() int
 	Set(i int, x T)
 	Get(i int) T
-	Add(x T) T
+	Add(i int, x T)
 	Remove(i int) T
+}
+
+type IStack[T comparable] interface {
+	Size() int
+	Add(x T)
+	Remove() T
 }

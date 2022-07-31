@@ -53,4 +53,9 @@ Sorting Algos:
 - [ ] quicksort 
 - [ ] heapsort 
 
+Graphs: 
+- [ ] AdjacencyMatrix 
+- [ ] AdjacencyList 
+
+
 
